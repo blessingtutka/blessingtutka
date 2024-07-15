@@ -13,7 +13,7 @@ Driven Backend Developer with a strong foundation in computer science and a pass
 
 - 🦾 A passionate Self-taught Backen-end developer
 - 👩‍🎓 Currently learning Web Development in Kinshasa Digital Academy
-- 🌐 Personal website [a portfolio]([https://www.blessintportfolio.com](https://blessingtutka.github.io/blessing-tutka/))
+- 🌐 Personal website [a portfolio](https://blessingtutka.github.io/blessing-tutka/)
 - 🔭 I’m currently open for an internship or a new job opportunity, this is [my resume](https://www.canva.com/design/DAF7n7TdXQg/24OJcBvqiCO2hhTMzPZAKA/view?utm_content=DAF7n7TdXQg&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
 <br>
