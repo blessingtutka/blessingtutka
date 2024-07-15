@@ -29,30 +29,35 @@ Driven Backend Developer with a strong foundation in computer science and a pass
     ![C++](https://img.shields.io/badge/C++%20-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
     ![Python](https://img.shields.io/badge/Python%20-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)
     ![JavaScript](https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+    ![TypeScipt](https://img.shields.io/badge/TypeScript%20-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
 - 🤖 **Backend-End Development Languages**:
 
     ![PYTHON](https://img.shields.io/badge/PYTHON%20-%23377EC7.svg?style=for-the-badge&logo=python&logoColor=white)
     ![Django](https://img.shields.io/badge/DJANGO%20-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
     ![Django-Rest](https://img.shields.io/badge/Django%20Rest%20Framework%20-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
+    ![Express](https://img.shields.io/badge/Express%20-%23008BCC.svg?style=for-the-badge&logo=express&logoColor=white)
 
 - 💻 **Front-End Development Languages and Frameworks**:
     
     ![HTML5](https://img.shields.io/badge/HTML5%20-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
     ![CSS3](https://img.shields.io/badge/CSS%20-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
     ![JavaScript](https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+    ![TypeScipt](https://img.shields.io/badge/TypeScript%20-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
     ![React](https://img.shields.io/badge/react%20-%2300D8FF.svg?style=for-the-badge&logo=react&logoColor=black)
 
 - ☁ **Cloud Hosting**:
 
     ![Github Pages](https://img.shields.io/badge/GitHub%20Pages-%23327FC7.svg?style=for-the-badge&logo=github&logoColor=white)
     ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+    ![Render](https://img.shields.io/badge/render%20-%23187C5C.svg?style=for-the-badge&logo=render&logoColor=white)
 
 - 🛠 **Softwares and Tools**:
 
     ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
     ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
     ![Replit](https://img.shields.io/badge/replit-%23667881.svg?style=for-the-badge&logo=replit&logoColor=white)
+    ![PostgreSQL](https://img.shields.io/badge/PostgreSQL%20-%230064a5.svg?style=for-the-badge&logo=PostgreSQL&logoColor=white)
     ![MySQL](https://img.shields.io/badge/mysql-%23C21325.svg?style=for-the-badge&logo=mysql&logoColor=white)
     ![Postman](https://img.shields.io/badge/postman-%23FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white)
     ![Algolia](https://img.shields.io/badge/algolia-%234285F4.svg?style=for-the-badge&logo=algolia&logoColor=white)
@@ -65,6 +70,20 @@ Driven Backend Developer with a strong foundation in computer science and a pass
 </p>
 
 <br>
+
+## 🗼 My GitHub Monogatari
+
+<div align="center">
+
+Unfolding the epic saga of my contributions and adventures in the vast open-source universe.
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=blessingtutka&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
+
+![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=blessingtutka&theme=tokyonight&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=blessingtutka&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
+
+</div>
 
 ## <b> Let's Connect..!</b><img src="https://github.com/blessingtutka/blessingtutka/assets/117514619/5403a508-7ba1-45b0-8e44-c024cda2d1af" width ="60" align="center" style="max-width: 100%; display: inline-block;">
 <br>
