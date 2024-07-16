@@ -77,7 +77,7 @@ Driven Backend Developer with a strong foundation in computer science and a pass
 
 Unfolding the epic saga of my contributions and adventures in the vast open-source universe.
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=blessingtutka&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=blessingtutka&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true)
 
 ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=blessingtutka&theme=tokyonight&hide_border=true)
 
