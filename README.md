@@ -51,6 +51,7 @@ Driven Backend Developer with a strong foundation in computer science and a pass
     ![Github Pages](https://img.shields.io/badge/GitHub%20Pages-%23327FC7.svg?style=for-the-badge&logo=github&logoColor=white)
     ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
     ![Render](https://img.shields.io/badge/render%20-%23187C5C.svg?style=for-the-badge&logo=render&logoColor=white)
+    ![Netlify](https://img.shields.io/badge/netlify%20-%2332E6E2.svg?style=for-the-badge&logo=netlify&logoColor=black)
 
 - 🛠 **Softwares and Tools**:
 
