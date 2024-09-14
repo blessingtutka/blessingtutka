@@ -94,7 +94,7 @@ Unfolding the epic saga of my contributions and adventures in the vast open-sour
 <p dir='auto' style="display:flex; justify-content:space-between;">
     
 [![LinkedIn](https://img.shields.io/badge/linkedin: @blessingtutka-%2300acee.svg?color=405DE6&style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/blessing-tutka-5184802b2/)
-[![Twitter](https://img.shields.io/badge/twitter: @Blessingtutka-%2300acee.svg?color=1DA1F2&style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/Blessingtutka/)
+[![x](https://img.shields.io/badge/%C2%A0@Blessingtutka-%2300acee.svg?color=000000&style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/Blessingtutka/)
 [![Email](https://img.shields.io/badge/gmail: @blessingtutka-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white)](mailto:blessingtutka298@gmail.com)
 
 </p>
