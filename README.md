@@ -44,7 +44,8 @@ Driven Backend Developer with a strong foundation in computer science and a pass
     ![CSS3](https://img.shields.io/badge/CSS%20-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
     ![JavaScript](https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
     ![TypeScipt](https://img.shields.io/badge/TypeScript%20-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-    ![React](https://img.shields.io/badge/react%20-%2300D8FF.svg?style=for-the-badge&logo=react&logoColor=black)
+    ![Reactjs](https://img.shields.io/badge/react%20js%20-%2300D8FF.svg?style=for-the-badge&logo=react&logoColor=black)
+    ![Nextjs](https://img.shields.io/badge/next%20js%20-%23000000.svg?style=for-the-badge&logo=nextjs&logoColor=white)
 
 - ☁ **Cloud Hosting**:
 
