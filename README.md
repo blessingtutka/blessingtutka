@@ -42,17 +42,18 @@ Driven Backend Developer with a strong foundation in computer science and a pass
     
     ![HTML5](https://img.shields.io/badge/HTML5%20-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
     ![CSS3](https://img.shields.io/badge/CSS%20-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+    ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
     ![JavaScript](https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
     ![TypeScipt](https://img.shields.io/badge/TypeScript%20-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-    ![Reactjs](https://img.shields.io/badge/react%20js%20-%2300D8FF.svg?style=for-the-badge&logo=react&logoColor=black)
-    ![Nextjs](https://img.shields.io/badge/next%20js%20-%23000000.svg?style=for-the-badge&logo=nextjs&logoColor=white)
+    ![Reactjs](https://img.shields.io/badge/react%20js%20-%23000000.svg?style=for-the-badge&logo=react&logoColor=%2300D8FF)
+    ![Nextjs](https://img.shields.io/badge/next%20js%20-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white)
 
 - ☁ **Cloud Hosting**:
 
     ![Github Pages](https://img.shields.io/badge/GitHub%20Pages-%23327FC7.svg?style=for-the-badge&logo=github&logoColor=white)
     ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
     ![Render](https://img.shields.io/badge/render%20-%23187C5C.svg?style=for-the-badge&logo=render&logoColor=white)
-    ![Netlify](https://img.shields.io/badge/netlify%20-%2332E6E2.svg?style=for-the-badge&logo=netlify&logoColor=black)
+    ![Netlify](https://img.shields.io/badge/netlify%20-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=%2332E6E2)
 
 - 🛠 **Softwares and Tools**:
 
