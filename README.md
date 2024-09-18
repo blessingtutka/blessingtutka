@@ -70,7 +70,9 @@ Driven Backend Developer with a strong foundation in computer science and a pass
     ![Terminal](https://img.shields.io/badge/Terminal-%23054020?style=for-the-badge&logo=gnu-bash&logoColor=white)
     ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
     ![Firebase](https://img.shields.io/badge/firebase-%23DD2C00.svg?style=for-the-badge&logo=firebase&logoColor=white)
-    ![Convex](https://img.shields.io/badge/convex-%23000000.svg?style=for-the-badge&logo=convex&logoColor=white)  
+    ![Convex](https://img.shields.io/badge/convex-%23000000.svg?style=for-the-badge&logo=convex&logoColor=white)
+    ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+    ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=for-the-badge&logo=WordPress&logoColor=white)
 
 </p>
 
