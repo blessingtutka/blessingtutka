@@ -59,7 +59,6 @@ Driven Backend Developer with a strong foundation in computer science and a pass
 
     ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
     ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-    ![Replit](https://img.shields.io/badge/replit-%23667881.svg?style=for-the-badge&logo=replit&logoColor=white)
     ![PostgreSQL](https://img.shields.io/badge/PostgreSQL%20-%230064a5.svg?style=for-the-badge&logo=PostgreSQL&logoColor=white)
     ![MySQL](https://img.shields.io/badge/mysql-%23C21325.svg?style=for-the-badge&logo=mysql&logoColor=white)
     ![Postman](https://img.shields.io/badge/postman-%23FF6C37.svg?style=for-the-badge&logo=postman&logoColor=white)
