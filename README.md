@@ -27,6 +27,7 @@ Driven Backend Developer with a strong foundation in computer science and a pass
     
     ![C](https://img.shields.io/badge/C%20-%232370ED.svg?style=for-the-badge&logo=c&logoColor=white)
     ![C++](https://img.shields.io/badge/C++%20-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+    ![Haskell](https://img.shields.io/badge/Haskell%20-%235D4F85.svg?style=for-the-badge&logo=haskell&logoColor=white)
     ![Python](https://img.shields.io/badge/Python%20-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)
     ![JavaScript](https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
     ![TypeScipt](https://img.shields.io/badge/TypeScript%20-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
