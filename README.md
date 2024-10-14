@@ -11,7 +11,7 @@
 Backend Developer with a solid grounding in computer science and a passion for crafting scalable, efficient systems. Always eager to take on new challenges, collaborate with talented teams, and keep learning to refine my skills and make meaningful contributions.
 
 - 🦾 A passionate Self-taught Backen-end developer
-- 👩‍🎓 Currently pursuing my studies at a university
+- 👩‍🎓 Currently pursuing my studies at university
 - 🌐 Personal website [a portfolio](https://blessingtutka.github.io/blessing-tutka/)
 - 🔭 I’m currently open for an internship or a new job opportunity, this is [my resume](https://www.canva.com/design/DAF7n7TdXQg/24OJcBvqiCO2hhTMzPZAKA/view?utm_content=DAF7n7TdXQg&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
