@@ -8,7 +8,7 @@
 
 ## <picture><img src="https://github.com/blessingtutka/blessingtutka/assets/117514619/7ce8f72f-a916-4e00-8223-1bdce131534b" width = 50px></picture> **About me**
 
-Backend Developer with a solid grounding in computer science and a passion for crafting scalable, efficient systems. Always eager to take on new challenges, collaborate with talented teams, and keep learning to refine my skills and make meaningful contributions.
+Backend Developer with a solid grounding in computer science and a passion for crafting scalable, efficient systems. Eager to take on new challenges, collaborate with talented teams, and keep learning to refine my skills and make meaningful contributions.
 
 - 🦾 A passionate Self-taught Backen-end developer
 - 👩‍🎓 Currently pursuing my studies at university
