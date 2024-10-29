@@ -1,11 +1,10 @@
-import "./App.css";
-
+import Layout from './components/layout/layout';
 function App() {
-  return (
-    <>
-      <p>Blessing Tutka Portfolio</p>
-    </>
-  );
+    return (
+        <>
+            <Layout />
+        </>
+    );
 }
 
 export default App;
