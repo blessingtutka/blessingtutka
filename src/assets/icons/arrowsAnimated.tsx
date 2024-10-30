@@ -24,7 +24,7 @@ const pulse = keyframes`
   }
 `;
 
-const Container = styled.div`
+const Container = styled.a`
     position: relative;
     width: 85px;
     height: 85px;
@@ -35,6 +35,7 @@ const Chevron = styled.div`
     position: absolute;
     width: 28px;
     height: 2px;
+    left: 25px;
     opacity: 0;
     transform: scale3d(0.5, 0.5, 0.5);
     animation: ${move} 3s ease-out infinite;
@@ -72,7 +73,6 @@ const Chevron = styled.div`
 const Text = styled.div`
     display: block;
     margin-top: 70px;
-    margin-left: -20px;
     font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
     font-size: 12px;
     color: #fff;
@@ -84,7 +84,7 @@ const Text = styled.div`
 
 const ArrowsAnimation = () => {
     return (
-        <Container>
+        <Container href='/#about'>
             <Chevron className='chevron' />
             <Chevron className='chevron' />
             <Chevron className='chevron' />
