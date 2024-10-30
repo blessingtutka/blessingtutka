@@ -79,6 +79,6 @@
     }
 
     body {
-        @apply bg-background text-foreground m-0 p-0;
+        @apply overflow-x-hidden bg-background text-foreground m-0 p-0;
     }
 }
