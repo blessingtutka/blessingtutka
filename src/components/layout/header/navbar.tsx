@@ -3,7 +3,7 @@ import NavContact from './nav-contact';
 
 function NavBar() {
     return (
-        <div className='nav-bar'>
+        <div className='nav-bar' id='nav-bar'>
             <Nav />
             <NavContact />
         </div>
