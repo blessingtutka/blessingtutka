@@ -43,3 +43,83 @@
     color: #008bff;
     --_p: 100%;
 }
+
+.nav-toggler {
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    margin: 0;
+    width: 30px;
+    height: 35px;
+    outline: none;
+}
+
+.nav-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.nav-toggler[aria-expanded='true'] .nav-toggler-icon {
+    background: transparent;
+}
+
+.nav-toggler[aria-expanded='true'] .nav-toggler-icon:before,
+.nav-toggler[aria-expanded='true'] .nav-toggler-icon:after {
+    transition:
+        top 300ms 50ms ease,
+        -webkit-transform 300ms 350ms ease;
+    transition:
+        top 300ms 50ms ease,
+        transform 300ms 350ms ease;
+    transition:
+        top 300ms 50ms ease,
+        transform 300ms 350ms ease,
+        -webkit-transform 300ms 350ms ease;
+    top: 0;
+}
+
+.nav-toggler[aria-expanded='true'] .nav-toggler-icon:before {
+    transform: rotate(45deg);
+}
+
+.nav-toggler[aria-expanded='true'] .nav-toggler-icon:after {
+    transform: rotate(-45deg);
+}
+
+.nav-toggler .nav-toggler-icon {
+    background: #fff;
+    transition: background 10ms 300ms ease;
+    display: block;
+    width: 30px;
+    height: 2px;
+    position: relative;
+}
+
+.nav-toggler .nav-toggler-icon:before,
+.nav-toggler .nav-toggler-icon:after {
+    transition:
+        top 300ms 350ms ease,
+        -webkit-transform 300ms 50ms ease;
+    transition:
+        top 300ms 350ms ease,
+        transform 300ms 50ms ease;
+    transition:
+        top 300ms 350ms ease,
+        transform 300ms 50ms ease,
+        -webkit-transform 300ms 50ms ease;
+    position: absolute;
+    right: 0;
+    left: 0;
+    background: #fff;
+    width: 30px;
+    height: 2px;
+    content: '';
+}
+
+.nav-toggler .nav-toggler-icon::before {
+    top: -8px;
+}
+
+.nav-toggler .nav-toggler-icon::after {
+    top: 8px;
+}
