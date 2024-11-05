@@ -1,11 +1,5 @@
-@import '../index.scss';
+@use '../index.scss';
 
 @layer components {
     // HERO STYLE
-    .hero {
-        @apply relative flex justify-center items-center overflow-hidden;
-        .hero-image-wrap {
-            @apply rounded-full absolute z-22 top-[-50px] right-0 left-0 flex justify-center items-center mx-auto pointer-events-none;
-        }
-    }
 }
