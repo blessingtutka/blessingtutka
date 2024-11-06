@@ -1,20 +1,17 @@
-import { useState } from 'react';
+import { useHeader } from '@/providers';
 
 function NavToggler() {
-    const [isExpanded, setIsExpanded] = useState(false);
+    const { click, handleClick } = useHeader();
 
-    const handleToggle = () => {
-        setIsExpanded((prev) => !prev);
-    };
     return (
         <button
             className='nav-toggler'
             type='button'
-            onClick={handleToggle}
+            onClick={handleClick}
             data-bs-toggle='collapse'
             data-bs-target='#nav-bar'
             aria-controls='nav-bar'
-            aria-expanded={isExpanded}
+            aria-expanded={click}
             aria-label='Toggle navigation'
         >
             <span className='nav-toggler-icon'></span>
