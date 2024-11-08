@@ -1,16 +1,21 @@
 import NavBar from './navbar';
 import NavToggler from './nav-toggler';
 import NavBrand from './nav-brand';
+import NavContact from './nav-contact';
+import { HeaderContextProvider } from '@/providers';
 
 import '../../../style/header.scss';
 
 function Header() {
     return (
-        <nav className='header'>
-            <NavToggler />
-            <NavBrand />
-            <NavBar />
-        </nav>
+        <HeaderContextProvider>
+            <nav className='header'>
+                <NavToggler />
+                <NavBrand />
+                <NavBar />
+                <NavContact />
+            </nav>
+        </HeaderContextProvider>
     );
 }
 
