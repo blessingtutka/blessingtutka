@@ -1,36 +1,54 @@
-@import '../index.scss';
+@use '../index.scss';
 
 @layer components {
     .header {
         @apply flex mlg:gap-10 justify-between mlg:justify-start
         px-5 rounded-full absolute z-50 top-2 right-0 left-0   items-center overflow-hidden h-16;
 
+        .nav-toggler,
+        .nav-brand,
+        .nav-bar,
+        .nav-contact {
+            transition:
+                order 0.3s ease,
+                opacity 0.3s ease;
+        }
+
         .nav-toggler {
             @apply block mlg:hidden text-white;
         }
 
         .nav-brand {
-            @apply w-14 h-14;
+            @apply w-14 h-14 order-3 mlg:order-1;
         }
 
         .nav-bar {
-            @apply flex mlg:gap-4 mlg:flex-grow justify-between items-center;
+            @apply hidden mlg:flex mlg:gap-4 mlg:flex-grow justify-between items-center mlg:order-2;
 
             .nav {
-                @apply list-none hidden mlg:flex gap-3 justify-between items-center;
+                @apply list-none flex gap-3 justify-between items-center;
+            }
+
+            &.mobile {
+                @apply block top-14 absolute z-30 bg-white w-full;
                 .nav-link {
-                    @apply inline-block text-xs font-semibold uppercase  py-2 cursor-pointer;
+                    @apply text-center w-full text-black inline-block text-xs font-semibold uppercase  py-2 cursor-pointer;
                 }
             }
-            .nav-contact {
-                @apply flex items-center gap-2 text-white;
-                .nav-icon {
-                    @apply w-4 h-4;
-                }
 
-                .nav-btn {
-                    @apply hidden sm:block;
-                }
+            .nav-link {
+                @apply inline-block text-xs font-semibold uppercase  py-2 cursor-pointer;
+            }
+        }
+
+        .nav-contact {
+            @apply flex items-center gap-2 text-white order-2 mlg:order-3 m-auto mlg:m-0;
+            .nav-icon {
+                @apply w-4 h-4;
+            }
+
+            .nav-btn {
+                @apply hidden sm:block;
             }
         }
     }
