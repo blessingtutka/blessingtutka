@@ -1,5 +1,6 @@
 import HeroImage from './hero-image';
 import { ArrowsAnimation } from '@/assets/icons';
+import HeroSocial from './hero-social';
 // import { Link } from 'react-router-dom';
 
 function HeroContent() {
@@ -15,6 +16,7 @@ function HeroContent() {
                 </p>
             </div>
             <ArrowsAnimation />
+            <HeroSocial />
         </div>
     );
 }
