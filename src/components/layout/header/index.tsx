@@ -9,7 +9,7 @@ import '../../../style/header.scss';
 function Header() {
     return (
         <HeaderContextProvider>
-            <nav className='header'>
+            <nav className='header' id='header'>
                 <NavToggler />
                 <NavBrand />
                 <NavBar />
