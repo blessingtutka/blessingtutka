@@ -1,13 +1,11 @@
 import Nav from './nav';
-import { useHeader } from '@/providers';
+import AnimatedNav from './nav-animated';
 
 function NavBar() {
-    const { click } = useHeader();
-
     return (
-        <div className={`nav-bar${click ? ' mobile' : ''}`} id='nav-bar'>
+        <AnimatedNav>
             <Nav />
-        </div>
+        </AnimatedNav>
     );
 }
 
