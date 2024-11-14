@@ -3,7 +3,7 @@
 @layer components {
     .header {
         @apply flex mlg:gap-10 justify-between mlg:justify-start
-        px-5 rounded-full absolute z-50 top-2 right-0 left-0   items-center overflow-hidden h-16;
+        px-5 absolute z-50 top-2 right-0 left-0 items-center h-16;
 
         .nav-toggler,
         .nav-brand,
@@ -23,17 +23,23 @@
         }
 
         .nav-bar {
-            @apply hidden mlg:flex mlg:gap-4 mlg:flex-grow justify-between items-center mlg:order-2;
+            @apply flex mlg:gap-4 mlg:flex-grow justify-between items-center mlg:order-2;
 
             .nav {
                 @apply list-none flex gap-3 justify-between items-center;
             }
 
-            &.mobile {
-                @apply block top-14 absolute z-30 bg-white w-full;
-                .nav-link {
-                    @apply text-center w-full text-black inline-block text-xs font-semibold uppercase  py-2 cursor-pointer;
-                }
+            &.active {
+                @apply absolute flex flex-col top-16 left-0 right-0 transition-all origin-top
+                mx-auto items-center w-[90%] px-4;
+                background: linear-gradient(to bottom, transparent 0%, rgba(27, 39, 53, 0.9) 5%, #1b2735 50%);
+            }
+            &.active .nav {
+                @apply flex flex-col w-full;
+            }
+
+            &.active .nav-link {
+                @apply w-full pb-4 first:pt-4 border-b border-solid border-[#008bff] last:border-b-0 text-center;
             }
 
             .nav-link {
