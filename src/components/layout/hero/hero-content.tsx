@@ -15,8 +15,8 @@ function HeroContent() {
                     <b>Sofware Engineer</b>
                 </p>
             </div>
-            <ArrowsAnimation />
             <HeroSocial />
+            <ArrowsAnimation />
         </div>
     );
 }

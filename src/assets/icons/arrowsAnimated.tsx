@@ -72,7 +72,7 @@ const Chevron = styled.div`
 
 const Text = styled.div`
     display: block;
-    margin-top: 70px;
+    margin-top: 65px;
     font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
     font-size: 12px;
     color: #fff;
