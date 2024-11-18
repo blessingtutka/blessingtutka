@@ -1,0 +1,12 @@
+@use '../index.scss';
+
+@layer components {
+    // section header
+    .section-header {
+        @apply p-3 rounded-lg;
+        // box-shadow:
+        //     rgba(95, 145, 255, 0.16) 0px 1px 4px,
+        //     rgb(95, 145, 255) 0px 0px 0px 3px;
+        box-shadow: rgba(95, 145, 255, 0.3) 0px 0px 0px 3px;
+    }
+}
