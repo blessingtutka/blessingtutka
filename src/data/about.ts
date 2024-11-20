@@ -1,8 +1,8 @@
 export const about = {
     title: 'My Monogatari',
     subtitle: "Here's a Glimpse of Me",
-    avatar: './images/avatar.png',
-    image: './images/about-me.jpg',
+    avatar: './images/avatar.jpg',
+    image: './images/about-me.webp',
     content: [
         `Hello, I'm Benedicte Tuteka Mukuta, 
     a dedicated backend web developer with a passion for creating reliable and efficient web solutions.`,
