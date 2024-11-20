@@ -1,13 +1,15 @@
 import Header from './header';
 import Hero from './hero';
-// import About from './about';
+import About from './about';
+
+import '../../style/layout.scss';
 
 function Layout() {
     return (
         <div className='layout relative'>
             <Header />
             <Hero />
-            {/* <About /> */}
+            <About />
         </div>
     );
 }
