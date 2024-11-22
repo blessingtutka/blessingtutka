@@ -20,7 +20,7 @@ export const skills = [
     {
         title: 'Backend Development',
         subtitle: 'Over 2 years of development experience in:',
-        tools: ['python', 'django'],
+        tools: ['python', 'django', 'express'],
         contentType: 'python',
         icon: <Server className='icon' />,
         gradient: 'green',
