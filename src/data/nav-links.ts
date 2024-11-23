@@ -1,27 +1,33 @@
 const navLinks: InavLink[] = [
     {
         label: 'Home',
-        link: '#home',
+        name: 'home',
+        link: '/#home',
     },
     {
         label: 'About',
-        link: '#about',
+        name: 'about',
+        link: '/#about',
     },
     {
         label: 'Services',
-        link: '#services',
+        name: 'service',
+        link: '/#service',
     },
     {
         label: 'Projects',
-        link: '#projects',
+        name: 'project',
+        link: '/#project',
     },
     {
         label: 'Skills',
-        link: '#skill',
+        name: 'skill',
+        link: '/#skill',
     },
     {
         label: 'Contact',
-        link: '#contact',
+        name: 'contact',
+        link: '/#contact',
     },
 ];
 
