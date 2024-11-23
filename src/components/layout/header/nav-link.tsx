@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
+import { HashLink } from 'react-router-hash-link';
 import { useHeader } from '@/providers';
 
 const mobileLinkVars = {
@@ -25,14 +25,15 @@ const mobileLinkVars = {
 
 interface NavLinkProps {
     title: string;
+    name: string;
     href: string;
 }
 
-const NavLink: React.FC<NavLinkProps> = ({ title, href }) => {
-    const { mobileNav, click } = useHeader();
-    const location = useLocation();
-    const pathname = location.pathname || '/';
-    const isActive = href === pathname;
+const NavLink: React.FC<NavLinkProps> = ({ title, href, name }) => {
+    const { mobileNav, click, activeSection } = useHeader();
+    const isActive = activeSection == name;
+
+    console.log(activeSection);
 
     const className = `nav-link ${isActive ? 'active' : ''}`.trim();
 
@@ -40,14 +41,16 @@ const NavLink: React.FC<NavLinkProps> = ({ title, href }) => {
         <AnimatePresence>
             {click && (
                 <motion.li key={href} variants={mobileLinkVars} initial='initial' animate='open' exit='exit' className={className}>
-                    <Link to={href}>{title}</Link>
+                    <HashLink smooth to={href}>
+                        {title}
+                    </HashLink>
                 </motion.li>
             )}
         </AnimatePresence>
     ) : (
-        <Link to={href} className={className} data-active={isActive}>
+        <HashLink smooth to={href} className={className} data-active={isActive}>
             {title}
-        </Link>
+        </HashLink>
     );
 };
 
