@@ -1,7 +1,9 @@
 import { useContext, useState, useEffect, createContext, FC, ReactNode } from 'react';
+import { navLinks } from '@/data';
 
 interface HeaderContentType {
     click: boolean;
+    activeSection: string;
     handleClick: () => void;
     mobileNav: boolean;
 }
@@ -24,11 +26,35 @@ const HeaderContextProvider: FC<HeaderContextProviderProps> = ({ children }) => 
     const [click, setClick] = useState(false);
     const [mobileNav, setMobileNav] = useState(false);
     const handleClick = () => setClick(!click);
+    const [activeSection, setActiveSection] = useState('home');
     const headerContent: HeaderContentType = {
         click,
         handleClick,
+        activeSection,
         mobileNav,
     };
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollPosition = window.scrollY;
+            navLinks.forEach((section) => {
+                const element = document.getElementById(section.name);
+                if (element) {
+                    const offsetTop = element.offsetTop;
+                    const offsetBottom = offsetTop + element.offsetHeight;
+
+                    if (scrollPosition >= offsetTop && scrollPosition < offsetBottom) {
+                        setActiveSection(section.name);
+                    }
+                }
+            });
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
 
     useEffect(() => {
         const handleResize = () => {
