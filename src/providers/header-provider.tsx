@@ -41,7 +41,7 @@ const HeaderContextProvider: FC<HeaderContextProviderProps> = ({ children }) => 
                 const element = document.getElementById(section.name);
                 if (element) {
                     const offsetTop = element.offsetTop;
-                    const offsetBottom = offsetTop + element.offsetHeight;
+                    const offsetBottom = offsetTop + element.offsetHeight - 65;
 
                     if (scrollPosition >= offsetTop && scrollPosition < offsetBottom) {
                         setActiveSection(section.name);
@@ -51,6 +51,25 @@ const HeaderContextProvider: FC<HeaderContextProviderProps> = ({ children }) => 
         };
 
         window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const header = document.getElementById('header');
+            if (header) {
+                if (window.scrollY > 100) {
+                    header.classList.add('sticky');
+                } else {
+                    header.classList.remove('sticky');
+                }
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
