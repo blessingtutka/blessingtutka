@@ -10,9 +10,9 @@ const navLinks: InavLink[] = [
         link: '/#about',
     },
     {
-        label: 'Services',
-        name: 'service',
-        link: '/#service',
+        label: 'Skills',
+        name: 'skill',
+        link: '/#skill',
     },
     {
         label: 'Projects',
@@ -20,9 +20,9 @@ const navLinks: InavLink[] = [
         link: '/#project',
     },
     {
-        label: 'Skills',
-        name: 'skill',
-        link: '/#skill',
+        label: 'Services',
+        name: 'service',
+        link: '/#service',
     },
     {
         label: 'Contact',

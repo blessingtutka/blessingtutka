@@ -12,7 +12,7 @@ export const projects = [
         link: 'https://mic-0pkr.onrender.com/',
     },
     {
-        title: 'Gateway Export',
+        title: 'Gtw Export',
         tool: 'Wordpress',
         image: './images/projects/gateway.png',
         link: 'https://dev-gatewayexportdrc.pantheonsite.io/',
@@ -24,7 +24,7 @@ export const projects = [
         link: 'https://blessingtutka.github.io/cprj/',
     },
     {
-        title: 'TWITTER CLONE',
+        title: 'Twitter Clone',
         tool: 'React/Express',
         image: './images/projects/twitter-clone.png',
         link: 'https://twitter-clone-nu-six.vercel.app/',
