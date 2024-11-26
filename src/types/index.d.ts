@@ -11,3 +11,10 @@ type ISkill = {
     icon: string;
     gradient: 'magenta' | 'blue' | 'green' | 'yellow';
 };
+
+type IProject = {
+    title: string;
+    tool: string;
+    image: string;
+    link: string;
+};
