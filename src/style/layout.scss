@@ -133,4 +133,40 @@
     .quote cite {
         @apply text-sm font-semibold text-gray-500 mt-2 block;
     }
+
+    // PROJECT
+    .project-card {
+        @apply w-full md:w-[49%] mlg:w-[32%];
+
+        .project-thumb {
+            @apply relative w-full overflow-hidden p-10 transition-all 
+            ease-in-out duration-500 rounded-md bg-gray-800 border border-gray-700;
+
+            &:hover {
+                border-color: #008bff;
+                .project-image {
+                    @apply rotate-0 translate-y-0;
+                }
+            }
+        }
+
+        .project-info {
+            .project-tag {
+                @apply text-secondary uppercase mb-1 text-xs font-medium text-[#008bff];
+            }
+
+            .project-title {
+                @apply mb-5 font-bold text-3xl text-white;
+            }
+        }
+
+        .popup-image {
+            @apply block w-full h-full;
+        }
+
+        .project-image {
+            @apply block w-full rounded-md transition-all ease-in-out duration-500;
+            transform: rotate(10deg) translateY(80px);
+        }
+    }
 }
