@@ -29,4 +29,10 @@ export const projects = [
         image: './images/projects/twitter-clone.png',
         link: 'https://twitter-clone-nu-six.vercel.app/',
     },
+    {
+        title: 'My Portfolio',
+        tool: 'React',
+        image: './images/projects/blessing-portfolio.png',
+        link: 'https://blessingtutka-portfolio.vercel.app/',
+    },
 ];
