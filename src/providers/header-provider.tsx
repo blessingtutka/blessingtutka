@@ -41,9 +41,8 @@ const HeaderContextProvider: FC<HeaderContextProviderProps> = ({ children }) => 
                 const element = document.getElementById(section.name);
                 if (element) {
                     const offsetTop = element.offsetTop;
-                    const offsetBottom = offsetTop + element.offsetHeight - 65;
-
-                    if (scrollPosition >= offsetTop && scrollPosition < offsetBottom) {
+                    console.log(offsetTop, element.offsetHeight);
+                    if (scrollPosition >= offsetTop && scrollPosition < offsetTop + element.offsetHeight) {
                         setActiveSection(section.name);
                     }
                 }

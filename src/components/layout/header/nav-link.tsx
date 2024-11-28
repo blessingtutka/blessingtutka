@@ -33,8 +33,6 @@ const NavLink: React.FC<NavLinkProps> = ({ title, href, name }) => {
     const { mobileNav, click, activeSection } = useHeader();
     const isActive = activeSection == name;
 
-    console.log(activeSection);
-
     const className = `nav-link ${isActive ? 'active' : ''}`.trim();
 
     return mobileNav ? (
