@@ -9,7 +9,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         <div className='project-card'>
             <div className='project-thumb'>
                 <div className='project-info'>
-                    <small className='project-tag'>{project.tool}</small>
+                    <div className='flex gap-2'>
+                        {project.tags.map((tag, index) => (
+                            <small className='project-tag bg-[rgba(0,139,255,0.2)] p-1 rounded-sm' key={index}>
+                                {tag}
+                            </small>
+                        ))}
+                    </div>
+
                     <h3 className='project-title'>{project.title}</h3>
                 </div>
                 <a href={project.link} className='popup-image' target='_blank' rel='noreferrer noopener'>
