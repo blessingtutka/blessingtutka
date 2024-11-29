@@ -14,7 +14,7 @@ type ISkill = {
 
 type IProject = {
     title: string;
-    tool: string;
+    tags: string[];
     image: string;
     link: string;
 };
