@@ -18,3 +18,15 @@ type IProject = {
     image: string;
     link: string;
 };
+
+type ISocialIcon = {
+    url: string;
+    icon: string;
+    label: string;
+};
+
+type IContactMe = {
+    about: string;
+    email: string;
+    phone: string;
+};
