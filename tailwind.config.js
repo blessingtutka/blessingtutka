@@ -13,6 +13,9 @@ export default {
                 ssm: '576px',
                 mlg: '992px',
             },
+            width: {
+                mid: '49%',
+            },
             colors: {
                 background: 'hsl(var(--background))',
                 foreground: 'hsl(var(--foreground))',
