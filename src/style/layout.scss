@@ -169,4 +169,24 @@
             transform: rotate(10deg) translateY(80px);
         }
     }
+
+    // CONTACT
+    .contact {
+        .contact-info {
+            .ci-wrapper {
+                @apply w-full sm:w-mid bg-gray-800 p-4;
+
+                &.left {
+                    @apply rounded-tl-md rounded-bl-none rounded-tr-md sm:rounded-bl-md  sm:rounded-tr-none;
+                }
+                &.right {
+                    @apply rounded-br-md rounded-tr-none rounded-bl-md sm:rounded-tr-md sm:rounded-bl-none;
+                }
+            }
+            .contact-service {
+                @apply px-2 py-1 me-1 bg-transparent border border-gray-500 rounded-full
+                text-gray-500 hover:bg-[#008bff] hover:text-white hover:border-white;
+            }
+        }
+    }
 }
