@@ -3,6 +3,7 @@ import Hero from './hero';
 import About from './about';
 import Project from './project';
 import Skill from './skill';
+import Contact from './contact';
 
 import '../../style/layout.scss';
 
@@ -14,6 +15,7 @@ function Layout() {
             <About />
             <Skill />
             <Project />
+            <Contact />
         </div>
     );
 }
