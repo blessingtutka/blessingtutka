@@ -7,9 +7,15 @@ export const projects = [
     },
     {
         title: 'MIC-DRC',
-        tags: ['html', 'css', 'js'],
+        tags: ['Flask'],
         image: './images/projects/mic.png',
         link: 'https://mic-0pkr.onrender.com/',
+    },
+    {
+        title: 'Sofia LibraryWare',
+        tags: ['Nextjs', 'convex'],
+        image: './images/projects/library.png',
+        link: 'https://sofia-library.netlify.app/',
     },
     {
         title: 'Gtw Export',
