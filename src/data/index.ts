@@ -4,5 +4,5 @@ import { about } from './about';
 import { skills } from './skill';
 import { projects } from './project';
 import { services } from './service';
-import { contactInfo } from './contact';
-export { navLinks, socialLinks, about, skills, projects, services, contactInfo };
+import { contactInfo, contactFormSchema, contactSteps } from './contact';
+export { navLinks, socialLinks, about, skills, projects, services, contactInfo, contactFormSchema, contactSteps };
