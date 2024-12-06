@@ -181,3 +181,61 @@
     -webkit-mask: var(--mask);
     mask: var(--mask);
 }
+
+// MUTLISTEP
+#progressbar {
+    overflow: hidden;
+    color: #9ba0a8;
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 15px;
+    position: relative;
+    font-weight: 400;
+}
+#progressbar li .icon {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    line-height: 45px;
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    background: #9ba0a8;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 10px;
+    z-index: 1;
+}
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 35px;
+    z-index: 0;
+}
+
+#progressbar li.active span {
+    color: #008bff;
+}
+#progressbar li.active .icon {
+    background: #008bff;
+}
+#progressbar li.active:after {
+    background: repeating-linear-gradient(-45deg, #80c5ff, #80c5ff 10px, #008bff 10px, #008bff 20px);
+    animation: progress-stripes 1s linear infinite;
+}
+
+@keyframes progress-stripes {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 40px 0;
+    }
+}
