@@ -177,15 +177,30 @@
                 @apply w-full sm:w-mid bg-gray-800 p-4;
 
                 &.left {
-                    @apply rounded-tl-md rounded-bl-none rounded-tr-md sm:rounded-bl-md  sm:rounded-tr-none;
+                    @apply flex-none rounded-tl-md rounded-bl-none rounded-tr-md sm:rounded-bl-md  sm:rounded-tr-none;
                 }
                 &.right {
-                    @apply rounded-br-md rounded-tr-none rounded-bl-md sm:rounded-tr-md sm:rounded-bl-none;
+                    @apply flex-grow rounded-br-md rounded-tr-none rounded-bl-md sm:rounded-tr-md sm:rounded-bl-none;
                 }
             }
             .contact-service {
                 @apply px-2 py-1 me-1 bg-transparent border border-gray-500 rounded-full
                 text-gray-500 hover:bg-[#008bff] hover:text-white hover:border-white;
+            }
+        }
+        .contact-form {
+            @apply bg-gray-700 text-gray-200 p-4 flex flex-col gap-3 justify-center items-center rounded-lg;
+            .contact-form-heading {
+                h2 {
+                    @apply text-[#008bff] font-semibold text-2xl;
+                }
+            }
+            .contact-multi {
+                @apply w-full;
+                input,
+                textarea {
+                    @apply bg-slate-800 border-none focus:!outline-none;
+                }
             }
         }
     }
