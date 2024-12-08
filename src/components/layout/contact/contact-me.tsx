@@ -12,7 +12,7 @@ const ContactMe: React.FC<ContactMeProps> = ({ me }) => (
         </div>
         <div>
             <h4 className='font-semibold text-gray-300'>Email</h4>
-            <a href={`mailto:${me.email}`} className='text-gray-500 text-lg hover:text-[#008bff]'>
+            <a href={`mailto:${me.email}`} className='text-gray-500 text-lg hover:text-[#008bff] break-words'>
                 {me.email}
             </a>
         </div>

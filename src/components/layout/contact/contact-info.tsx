@@ -6,7 +6,7 @@ import { contactInfo } from '@/data';
 import { Text } from '@/components/global';
 
 const ContactInfo: React.FC = () => (
-    <div className='contact-info flex flex-col sm:flex-row gap-1'>
+    <div className='contact-info mlg:w-mid flex flex-col sm:flex-row gap-1'>
         <div className='ci-wrapper left'>
             <div className='flex flex-col gap-4'>
                 <ContactService items={contactInfo.services} />
