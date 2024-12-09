@@ -41,4 +41,10 @@ export const projects = [
         image: './images/projects/blessing-portfolio.png',
         link: 'https://blessingtutka-portfolio.vercel.app/',
     },
+    {
+        title: 'My Portfolio V1',
+        tags: ['html', 'css', 'js'],
+        image: './images/projects/blessing-portfolio-v1.png',
+        link: 'https://blessingtutka.github.io/blessing-tutka/',
+    },
 ];
