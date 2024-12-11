@@ -1,13 +1,13 @@
-import React from 'react';
 import ProjectCard from './project-card';
-import { projects } from '@/data';
 
-const Projects: React.FC = () => {
+const Projects: React.FC<{ projectsPaginated: IProject[] }> = ({ projectsPaginated }) => {
     return (
-        <div className='flex flex-wrap gap-2'>
-            {projects.map((project, index) => (
-                <ProjectCard key={index} project={project} />
-            ))}
+        <div className='flex flex-col items-center'>
+            <div className='flex flex-wrap gap-4 justify-center'>
+                {projectsPaginated.map((project, index) => (
+                    <ProjectCard key={index} project={project} />
+                ))}
+            </div>
         </div>
     );
 };
