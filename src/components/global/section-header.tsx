@@ -7,7 +7,7 @@ type SectionHeaderProps = {
 
 const SectionHeader: React.FC<SectionHeaderProps> = ({ image, title }) => {
     return (
-        <div className='flex m-2 justify-start'>
+        <div className='flex m-2 justify-start w-full'>
             <div className='w-full md:w-4/5 mlg:w-1/2'>
                 <div className='section-header flex justify-center items-center mb-4'>
                     <div className='section-header-img'>
