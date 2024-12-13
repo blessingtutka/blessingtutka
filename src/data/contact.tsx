@@ -23,14 +23,16 @@ export const contactFormSchema = z.object({
     services: z.array(z.string()).nonempty({
         message: 'Please select at least one service.',
     }),
-    message: z.string().min(10, {
+    message: z.string().min(2, {
         message: 'Message must be at least 10 characters long.',
     }),
 });
 
-export const contactSteps = [
-    { label: 'Name', icon: <File className='icon' /> },
-    { label: 'Email', icon: <AtSign className='icon' /> },
-    { label: 'Service', icon: <Briefcase className='icon' /> },
-    { label: 'Message', icon: <Edit className='icon' /> },
+type FormFieldNames = keyof z.infer<typeof contactFormSchema>;
+
+export const contactSteps: { label: string; icon: JSX.Element; field: FormFieldNames }[] = [
+    { label: 'Name', icon: <File className='icon' />, field: 'name' },
+    { label: 'Email', icon: <AtSign className='icon' />, field: 'email' },
+    { label: 'Service', icon: <Briefcase className='icon' />, field: 'services' },
+    { label: 'Message', icon: <Edit className='icon' />, field: 'message' },
 ];

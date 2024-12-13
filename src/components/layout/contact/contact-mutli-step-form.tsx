@@ -24,6 +24,7 @@ const ContactMultiStepForm: React.FC = () => {
             services: [],
             message: '',
         },
+        mode: 'onChange',
     });
 
     const updateStepLabel = (stepIndex: number) => {
@@ -45,8 +46,11 @@ const ContactMultiStepForm: React.FC = () => {
         setStepLabels(newStepLabels);
     };
 
-    const handleNext = () => {
-        if (currentStep < contactSteps.length) {
+    const handleNext = async () => {
+        const currentFieldName = contactSteps[currentStep - 1].field;
+        const isValid = await form.trigger([currentFieldName]);
+
+        if (isValid) {
             updateStepLabel(currentStep);
             setCurrentStep((prev) => prev + 1);
         }
@@ -58,9 +62,15 @@ const ContactMultiStepForm: React.FC = () => {
         }
     };
 
-    const onSubmit = (values: FormSchema) => {
-        console.log('Form Data:', values);
-        alert('Form submitted successfully!');
+    const onSubmit = async () => {
+        const isValid = await form.trigger();
+        if (isValid) {
+            const values = form.getValues();
+            console.log('Form Data:', values);
+            alert('Form submitted successfully!');
+            form.reset();
+            setCurrentStep(1);
+        }
     };
 
     return (
@@ -68,7 +78,7 @@ const ContactMultiStepForm: React.FC = () => {
             <form className='contact-multi' onSubmit={form.handleSubmit(onSubmit)}>
                 <ul className='flex justify-between mb-4' id='progressbar'>
                     {contactSteps.map((step, index) => (
-                        <li key={index} className={` flex-1 text-center p-2 rounded ${index + 1 <= currentStep ? 'active' : ''}`}>
+                        <li key={index} className={`flex-1 text-center p-2 rounded ${index + 1 <= currentStep ? 'active' : ''}`}>
                             {step.icon}
                             <span id={step.label}>{truncater(stepLabels[index], 10)}</span>
                         </li>
@@ -156,7 +166,7 @@ const ContactMultiStepForm: React.FC = () => {
                 )}
                 <div className='flex justify-between mt-4'>
                     {currentStep > 1 && (
-                        <Button variant='outline' onClick={handlePrevious}>
+                        <Button variant='outline' className='text-[#121923] hover:bg-gray-400 border-[#121923]' onClick={handlePrevious}>
                             Previous
                         </Button>
                     )}
