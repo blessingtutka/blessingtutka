@@ -30,3 +30,10 @@ type IContactMe = {
     email: string;
     phone: string;
 };
+
+type IMail = {
+    name: string;
+    email: string;
+    services: string[];
+    message: string?;
+};
