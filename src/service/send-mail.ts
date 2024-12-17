@@ -7,10 +7,15 @@ import nodemailer from 'nodemailer';
  */
 export const sendEmail = async (senderData: IMail): Promise<string> => {
     const transporter = nodemailer.createTransport({
-        service: 'gmail',
+        host: import.meta.env.VITE_EMAIL_HOST,
+        port: import.meta.env.VITE_EMAIL_PORT,
+        secure: import.meta.env.VITE_MAIL_USE_SSL,
         auth: {
-            user: import.meta.env.VITE_EMAIL,
-            pass: import.meta.env.VITE_PASSWORD,
+            user: import.meta.env.VITE_EMAIL_HOST_USER,
+            pass: import.meta.env.VITE_EMAIL_HOST_PASSWORD,
+        },
+        tls: {
+            rejectUnauthorized: false,
         },
     });
 
