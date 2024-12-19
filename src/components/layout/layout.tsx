@@ -4,6 +4,7 @@ import About from './about';
 import Project from './project';
 import Skill from './skill';
 import Contact from './contact';
+import { Toaster } from '@/components/ui/toaster';
 
 import '../../style/layout.scss';
 
@@ -16,6 +17,7 @@ function Layout() {
             <Skill />
             <Project />
             <Contact />
+            <Toaster />
         </div>
     );
 }
