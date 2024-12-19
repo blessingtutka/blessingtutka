@@ -3,9 +3,10 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Checkbox } from '@/components/ui/checkbox';
-import { zodResolver } from '@hookform/resolvers/zod';
-import { useForm } from 'react-hook-form';
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
+import { useForm } from 'react-hook-form';
+import { zodResolver } from '@hookform/resolvers/zod';
+import { useToast } from '@/hooks/use-toast';
 import { contactFormSchema, contactSteps } from '@/data';
 import { truncater } from '@/utils';
 import { z } from 'zod';
@@ -15,6 +16,8 @@ type FormSchema = z.infer<typeof contactFormSchema>;
 const ContactMultiStepForm: React.FC = () => {
     const [currentStep, setCurrentStep] = useState(1);
     const [stepLabels, setStepLabels] = useState(contactSteps.map((step) => step.label));
+
+    const { toast } = useToast();
 
     const form = useForm<FormSchema>({
         resolver: zodResolver(contactFormSchema),
@@ -65,11 +68,17 @@ const ContactMultiStepForm: React.FC = () => {
     const onSubmit = async () => {
         const isValid = await form.trigger();
         if (isValid) {
-            const values = form.getValues();
-            console.log('Form Data:', values);
-            alert('Form submitted successfully!');
+            // const values = form.getValues();
+            toast({
+                title: 'Email Send',
+                variant: 'default',
+                description: "We've revieved your email",
+                className: '',
+            });
+            alert('Email send');
             form.reset();
             setCurrentStep(1);
+            setStepLabels(contactSteps.map((step) => step.label));
         }
     };
 
