@@ -12,8 +12,8 @@ Backend Developer with a solid grounding in computer science and a passion for c
 
 - 🦾 A passionate Self-taught Backen-end developer
 - 👩‍🎓 Currently on my university grind, leveling up my knowledge and skills!
-- 🌐 Personal website <a href="https://blessingtutka-portfolio.vercel.app/" target="_blank">a portfolio</a>
-- 🔭 I’m currently open for an internship or a new job opportunity, this is [my resume](https://www.canva.com/design/DAF7n7TdXQg/24OJcBvqiCO2hhTMzPZAKA/view?utm_content=DAF7n7TdXQg&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+- 🌐 Personal website <a href="https://blessingtutka-portfolio.vercel.app/" target="_blank" rel='noopener noreferrer'>a portfolio</a>
+- 🔭 I’m currently open for an internship or a new job opportunity, this is <a href="[https://blessingtutka-portfolio.vercel.app/](https://www.canva.com/design/DAF7n7TdXQg/24OJcBvqiCO2hhTMzPZAKA/view?utm_content=DAF7n7TdXQg&utm_campaign=designshare&utm_medium=link&utm_source=editor)" target="_blank" rel='noopener noreferrer'>my resume</a>
 
 <br>
 
