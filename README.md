@@ -1,4 +1,4 @@
-<h1 align="center"><b>Hi , I'm Benedicte Tuteka Mukuta (Blessing Tutka) </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
+<h1 align="center"><b>Hi, I'm Benedicte Tuteka Mukuta (Blessing Tutka) </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
 <!--  -->
 <p align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=38B6FF&random=false&width=550&lines=I'm+Benedicte+Tuteka+Known+as+Blessing+Tutka%2C;Computer+Science+Student%2C;Driven+Backend+Developer%2C;With+a+strong+foundation+in+computer+science%2C;And+problem-solving++skills." alt="Typing SVG" /></a>
@@ -12,8 +12,9 @@ Backend Developer with a solid grounding in computer science and a passion for c
 
 - 🦾 A passionate Self-taught Backen-end developer
 - 👩‍🎓 Currently on my university grind, leveling up my knowledge and skills!
-- 🌐 Personal website [a portfolio](https://blessingtutka.github.io/blessing-tutka/)
-- 🔭 I’m currently open for an internship or a new job opportunity, this is [my resume](https://www.canva.com/design/DAF7n7TdXQg/24OJcBvqiCO2hhTMzPZAKA/view?utm_content=DAF7n7TdXQg&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+- 🌐 Personal website <a href="https://blessingtutka-portfolio.vercel.app/" target="_blank" rel='noopener noreferrer'>a portfolio</a>
+- 🔭 I’m currently open for an internship or a new job opportunity, this is <a href="https://www.canva.com/design/DAF7n7TdXQg/24OJcBvqiCO2hhTMzPZAKA/view?utm_content=DAF7n7TdXQg&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" rel="noopener noreferrer">my resume</a>
+
 
 <br>
 
