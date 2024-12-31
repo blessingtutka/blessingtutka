@@ -38,6 +38,7 @@ const Chevron = styled.div`
     left: 25px;
     opacity: 0;
     transform: scale3d(0.5, 0.5, 0.5);
+    pointer-events: none;
     animation: ${move} 3s ease-out infinite;
 
     &:first-child {
