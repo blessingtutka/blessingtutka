@@ -8,12 +8,12 @@
 
 ## <picture><img src="https://github.com/blessingtutka/blessingtutka/assets/117514619/7ce8f72f-a916-4e00-8223-1bdce131534b" width = 50px></picture> **About me**
 
-Backend Developer with a solid grounding in computer science and a passion for crafting scalable, efficient systems. Eager to take on new challenges, collaborate with talented teams, and keep learning to refine my skills and make meaningful contributions.
+Backend Developer with a solid grounding in computer science and a passion for crafting scalable, efficient systems. I am eager to take on new challenges, collaborate with talented teams, and keep learning to refine my skills and make meaningful contributions.
 
 - 🦾 A passionate Self-taught Backen-end developer
 - 👩‍🎓 Currently on my university grind, leveling up my knowledge and skills!
-- 🌐 Personal website <a href="https://blessingtutka-portfolio.vercel.app/" target="_blank" rel='noopener noreferrer'>a portfolio</a>
-- 🔭 I’m currently open for an internship or a new job opportunity, this is <a href="https://www.canva.com/design/DAF7n7TdXQg/24OJcBvqiCO2hhTMzPZAKA/view?utm_content=DAF7n7TdXQg&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank" rel="noopener noreferrer">my resume</a>
+- 🌐 Personal website <a href="https://blessingtutka-portfolio.vercel.app/" target="_blank">a portfolio</a>
+- 🔭 I’m currently open for an internship or a new job opportunity, this is <a href="https://www.canva.com/design/DAF7n7TdXQg/24OJcBvqiCO2hhTMzPZAKA/view?utm_content=DAF7n7TdXQg&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank">my resume</a>
 
 
 <br>
