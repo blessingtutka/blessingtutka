@@ -1,5 +1,5 @@
-<h1 align="center"><b>Hi, I'm Benedicte Tuteka Mukuta (Blessing Tutka) </b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
-<!--  -->
+<h1 align="center"><b>Hi, I'm Benedicte Tuteka Mukuta (Blessing Tutka)</b><img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"></h1>
+<!-- Header -->
 <p align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=38B6FF&random=false&width=550&lines=I'm+Benedicte+Tuteka+Known+as+Blessing+Tutka%2C;Computer+Science+Student%2C;Driven+Backend+Developer%2C;With+a+strong+foundation+in+computer+science%2C;And+problem-solving++skills." alt="Typing SVG" /></a>
 </p>
