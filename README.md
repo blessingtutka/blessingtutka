@@ -13,7 +13,7 @@ Backend Developer with a solid grounding in computer science and a passion for c
 -   🦾 A passionate Self-taught Backen-end developer
 -   👩‍🎓 Currently on my university grind, leveling up my knowledge and skills!
 -   🌐 Personal website [portfolio](https://blessingtutka-portfolio.vercel.app/)
--   🔭 I’m currently open for an internship or a new job opportunity, this is [my resume](https://www.canva.com/design/DAF7n7TdXQg/24OJcBvqiCO2hhTMzPZAKA/view?utm_content=DAF7n7TdXQg&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+-   🔭 I'm currently open for an internship or a new job opportunity, this is [my resume](https://www.canva.com/design/DAF7n7TdXQg/24OJcBvqiCO2hhTMzPZAKA/view?utm_content=DAF7n7TdXQg&utm_campaign=designshare&utm_medium=link&utm_source=editor)
 
 <br>
 
@@ -113,7 +113,7 @@ Unfolding the epic saga of my contributions and adventures in the vast open-sour
 
 <br>
 
-Last Edited on: 06/01/2025
+Last Edited on: 10/01/2025
 
 <!--
 **blessingtutka/blessingtutka** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
