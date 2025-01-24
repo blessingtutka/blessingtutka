@@ -4,12 +4,10 @@ export const about = {
     avatar: './images/avatar.jpg',
     image: './images/about-me.webp',
     content: [
-        `Hello, I'm Benedicte Tuteka Mukuta, 
-    a dedicated backend web developer with a passion for creating reliable and efficient web solutions.`,
-        `Passionate and detail-oriented software engineer with a proven track record of delivering high-quality, 
-    scalable, and innovative solutions. 
-    My mission is to transform complex ideas into elegant, user-friendly software applications 
-    and to building robust backend systems to power seamless and dynamic web applications.
-    `,
+        `Hello, I'm Bénédicte Tuteka Mukuta, a web developer with a focus on backend development and a passion for creating reliable, 
+        efficient web solutions.`,
+        `I'm a detail-oriented software engineer specializing in backend systems development. 
+        I enjoy the challenge of building robust and efficient backend systems that contribute to seamless web experiences.
+        I'm eager to contribute my skills and dedication to building exceptional software.`,
     ],
 };
