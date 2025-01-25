@@ -7,7 +7,7 @@ export const projects = [
     },
     {
         title: 'MIC-DRC',
-        tags: ['Flask'],
+        tags: ['Flask', 'html\\css'],
         image: './images/projects/mic.png',
         link: 'https://mic-0pkr.onrender.com/',
     },
