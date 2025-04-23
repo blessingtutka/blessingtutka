@@ -20,11 +20,6 @@ const navLinks: InavLink[] = [
         link: '/#project',
     },
     {
-        label: 'Services',
-        name: 'service',
-        link: '/#service',
-    },
-    {
         label: 'Contact',
         name: 'contact',
         link: '/#contact',
