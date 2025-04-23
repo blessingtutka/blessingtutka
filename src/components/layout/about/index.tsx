@@ -4,13 +4,13 @@ import AboutImage from './about-image';
 import { about } from '@/data';
 
 function About() {
-    const { title, subtitle, avatar, image, content } = about;
+    const { title, subtitle, avatar, image, image2, content } = about;
     return (
-        <section className='about py-10' id='about'>
+        <section className='about mt-10' id='about'>
             <div className='container mx-auto px-4'>
                 <div className='flex flex-wrap'>
                     <div className='w-full lg:w-1/2 p-4'>
-                        <AboutImage src={image} />
+                        <AboutImage src1={image} src2={image2} />
                     </div>
 
                     <div className='w-full lg:w-1/2 p-4'>

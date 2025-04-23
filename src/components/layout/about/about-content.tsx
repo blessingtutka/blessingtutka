@@ -1,11 +1,16 @@
-import { Text } from '@/components/global';
+import { TypeAnimation } from 'react-type-animation';
 
 function AboutContent({ content, subtitle }: { content: string[]; subtitle: string }) {
     return (
         <div className='flex flex-col gap-y-2'>
             <h3 className='text-2xl font-semibold text-gray-300 pt-2'>{subtitle}</h3>
-            <Text>{content[0]}</Text>
-            <Text>{content[1]}</Text>
+            <TypeAnimation
+                sequence={[content[0] + '\n' + content[1], 1000]}
+                wrapper='span'
+                cursor={true}
+                speed={50}
+                className='text-lg text-gray-500'
+            />
         </div>
     );
 }
