@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -10,6 +11,7 @@ import { useToast } from '@/hooks/use-toast';
 import { contactFormSchema, contactSteps } from '@/data';
 import { truncater } from '@/utils';
 import { z } from 'zod';
+import mailService from '@/service/send-mail';
 
 type FormSchema = z.infer<typeof contactFormSchema>;
 
@@ -65,20 +67,28 @@ const ContactMultiStepForm: React.FC = () => {
         }
     };
 
-    const onSubmit = async () => {
+    const onSubmit = async (data: FormSchema) => {
         const isValid = await form.trigger();
         if (isValid) {
-            // const values = form.getValues();
-            toast({
-                title: 'Email Send',
-                variant: 'default',
-                description: "We've revieved your email",
-                className: '',
-            });
-            alert('Email send');
-            form.reset();
-            setCurrentStep(1);
-            setStepLabels(contactSteps.map((step) => step.label));
+            try {
+                await mailService.sendMail({ name: data.name, email: data.email, message: data.message, services: data.services });
+                console.log(data);
+                toast({
+                    title: 'Email Sent',
+                    variant: 'default',
+                    description: "We've received your email",
+                });
+            } catch {
+                toast({
+                    title: 'Error',
+                    variant: 'destructive',
+                    description: 'Failed to send email',
+                });
+            } finally {
+                form.reset();
+                setCurrentStep(1);
+                setStepLabels(contactSteps.map((step) => step.label));
+            }
         }
     };
 

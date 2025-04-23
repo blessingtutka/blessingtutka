@@ -12,13 +12,13 @@ const ContactMe: React.FC<ContactMeProps> = ({ me }) => (
         </div>
         <div>
             <h4 className='font-semibold text-gray-300'>Email</h4>
-            <a href={`mailto:${me.email}`} className='text-gray-500 text-lg hover:text-[#008bff] break-words'>
+            <a href={`mailto:${me.email}`} className='wvar font-inter text-gray-500 text-lg hover:text-[#008bff] break-words'>
                 {me.email}
             </a>
         </div>
         <div>
             <h4 className='font-semibold text-gray-300'>Call</h4>
-            <a href={`tel:${me.phone}`} className='text-gray-500 text-lg hover:text-[#008bff]'>
+            <a href={`tel:${me.phone}`} className='wvar font-inter text-gray-500 text-lg hover:text-[#008bff]'>
                 {me.phone}
             </a>
         </div>
