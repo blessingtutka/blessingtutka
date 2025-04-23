@@ -4,6 +4,9 @@ export default {
     content: ['./src/**/*.{js,ts,jsx,tsx}'],
     theme: {
         extend: {
+            fontFamily: {
+                inter: ['"Inter Variable"', 'sans-serif'],
+            },
             borderRadius: {
                 lg: 'var(--radius)',
                 md: 'calc(var(--radius) - 2px)',
