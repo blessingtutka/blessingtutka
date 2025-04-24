@@ -3,7 +3,7 @@ export const about = {
     subtitle: "Here's a Glimpse of Me",
     avatar: './images/avatar.jpg',
     image: './images/about-me.webp',
-    image2: './images/more-about-me.jpeg',
+    image2: './images/more-about-me.png',
     content: [
         `Hello, I'm Bénédicte Tuteka Mukuta, a web developer with a focus on backend development and a passion for creating reliable, 
         efficient web solutions.`,
