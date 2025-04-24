@@ -36,7 +36,7 @@ const HeaderContextProvider: FC<HeaderContextProviderProps> = ({ children }) => 
 
     useEffect(() => {
         const handleScroll = () => {
-            const scrollPosition = window.scrollY;
+            const scrollPosition = window.scrollY + 200;
             navLinks.forEach((section) => {
                 const element = document.getElementById(section.name);
                 if (element) {
