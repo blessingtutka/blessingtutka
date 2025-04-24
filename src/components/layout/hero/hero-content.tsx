@@ -27,11 +27,11 @@ function HeroContent() {
                     target='_blank'
                     rel='noopener noreferrer'
                     aria-label={'my resume'}
-                    className='text-gray-600 hover:text-white transition-colors'
+                    className='cv text-gray-600 relative flex justify-center items-center h-16 w-16'
                 >
-                    <FileUser />
-                    <small>
-                        <b>CV</b>
+                    <FileUser className='icon' />
+                    <small className='title'>
+                        <b>My Resume</b>
                     </small>
                 </a>
             </div>
