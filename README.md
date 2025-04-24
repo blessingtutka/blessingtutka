@@ -10,10 +10,10 @@
 
 Backend Developer with a solid grounding in computer science and a passion for crafting scalable, efficient systems. I am eager to take on new challenges, collaborate with talented teams, and keep learning to refine my skills and make meaningful contributions.
 
--   🦾 A passionate Self-taught Backen-end developer
--   👩‍🎓 Currently on my university grind, leveling up my knowledge and skills!
--   🌐 Personal website [portfolio](https://blessingtutka-portfolio.vercel.app/)
--   🔭 I'm currently open for an internship or a new job opportunity, this is [my resume](https://www.canva.com/design/DAGiqx7WR6Y/0yZwDYoARWoN-I_b__X7eQ/edit?ui=eyJEIjp7IlQiOnsiQSI6IlBCU2Z3ajN6OFJ6TjVNR3EifX19)
+- 🦾 A passionate Self-taught Backen-end developer
+- 👩‍🎓 Currently on my university grind, leveling up my knowledge and skills!
+- 🌐 Personal website [portfolio](https://blessingtutka-portfolio.vercel.app/)
+- 🔭 I'm currently open for an internship or a new job opportunity, this is [my resume](https://www.canva.com/design/DAGiqx7WR6Y/0yZwDYoARWoN-I_b__X7eQ/edit?ui=eyJEIjp7IlQiOnsiQSI6IlBCU2Z3ajN6OFJ6TjVNR3EifX19)
 
 <br>
 
@@ -23,23 +23,25 @@ Backend Developer with a solid grounding in computer science and a passion for c
 
 <p align="center">
 
--   👩‍💻 **Used Languages**:
+- 👩‍💻 **Used Languages**:
 
     ![C](https://img.shields.io/badge/C%20-%232370ED.svg?style=for-the-badge&logo=c&logoColor=white)
     ![C++](https://img.shields.io/badge/C++%20-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
     ![Haskell](https://img.shields.io/badge/Haskell%20-%235D4F85.svg?style=for-the-badge&logo=haskell&logoColor=white)
+    ![Prolog](https://img.shields.io/badge/Prolog%20-%23E61B23.svg?style=for-the-badge&logo=probot&logoColor=white)
+    ![ANTLR](https://img.shields.io/badge/ANTLR%20-%23E55038.svg?style=for-the-badge&logo=astra&logoColor=white)
     ![Python](https://img.shields.io/badge/Python%20-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white)
     ![JavaScript](https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
     ![TypeScipt](https://img.shields.io/badge/TypeScript%20-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
--   🤖 **Backend-End Development Languages**:
+- 🤖 **Backend-End Development Languages**:
 
     ![PYTHON](https://img.shields.io/badge/PYTHON%20-%23377EC7.svg?style=for-the-badge&logo=python&logoColor=white)
     ![Django](https://img.shields.io/badge/DJANGO%20-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
     ![Django-Rest](https://img.shields.io/badge/Django%20Rest%20Framework%20-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
     ![Express](https://img.shields.io/badge/Express%20-%23008BCC.svg?style=for-the-badge&logo=express&logoColor=white)
 
--   💻 **Front-End Development Languages and Frameworks**:
+- 💻 **Front-End Development Languages and Frameworks**:
 
     ![HTML5](https://img.shields.io/badge/HTML5%20-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
     ![CSS3](https://img.shields.io/badge/CSS%20-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -49,14 +51,14 @@ Backend Developer with a solid grounding in computer science and a passion for c
     ![Reactjs](https://img.shields.io/badge/react%20js%20-%23000000.svg?style=for-the-badge&logo=react&logoColor=%2300D8FF)
     ![Nextjs](https://img.shields.io/badge/next%20js%20-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white)
 
--   ☁ **Cloud Hosting**:
+- ☁ **Cloud Hosting**:
 
     ![Github Pages](https://img.shields.io/badge/GitHub%20Pages-%23327FC7.svg?style=for-the-badge&logo=github&logoColor=white)
     ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
     ![Render](https://img.shields.io/badge/render%20-%23187C5C.svg?style=for-the-badge&logo=render&logoColor=white)
     ![Netlify](https://img.shields.io/badge/netlify%20-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=%2332E6E2)
 
--   🛠 **Softwares and Tools**:
+- 🛠 **Softwares and Tools**:
 
     ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
     ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)

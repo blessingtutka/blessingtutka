@@ -4,7 +4,7 @@ export const skills = [
     {
         title: 'Software Development',
         subtitle: 'Experienced in both functional and OOP',
-        tools: ['python', 'js', 'c++'],
+        tools: ['python', 'js', 'c++', 'typescript', 'prolog', 'antlr'],
         contentType: 'html',
         icon: <Monitor className='icon' />,
         gradient: 'magenta',
@@ -12,7 +12,7 @@ export const skills = [
     {
         title: 'Frontend Development',
         subtitle: 'Over 2 years of development experience in:',
-        tools: ['html', 'css', 'react'],
+        tools: ['html', 'css', 'react', 'tailwind'],
         contentType: 'react',
         icon: <Layout className='icon' />,
         gradient: 'blue',
