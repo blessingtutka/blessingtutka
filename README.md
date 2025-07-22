@@ -87,9 +87,11 @@ Backend Developer with a solid grounding in computer science and a passion for c
 
 Unfolding the epic saga of my contributions and adventures in the vast open-source universe.
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=blessingtutka&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true)
+![blessingtutka's Stats](https://github-readme-stats.vercel.app/api?username=blessingtutka&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&include_all_commits=true)
 
-<!-- ![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=blessingtutka&theme=tokyonight&hide_border=true) -->
+
+![blessingtutka's Streak](https://github-readme-streak-stats.herokuapp.com/?user=blessingtutka&theme=tokyonight&hide_border=true)
+
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=blessingtutka&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact)
 
